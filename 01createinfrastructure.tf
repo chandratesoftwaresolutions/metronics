@@ -1,15 +1,15 @@
 # This is the first Terraform Script for creation of infrastructure
 provider "aws"{
 region   = "ap-south-1"
-access_key = "AKIAZVWDNBRLJNGNIU4C"
-secret_key ="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"  
+access_key = "AKIAUREIXBKUXZTPDDVU"
+secret_key ="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"  
 } 
 
 resource "aws_instance" "awsinfrastructure"{   
-ami = "ami-05c8ca4485f8b138a"
+ami = "ami-0f9d9a251c1a44858"
 instance_type = "t2.micro"
-security_groups = ["launch-wizard-3"]
-key_name  = "chandratechnologies"
+security_groups = ["launch-wizard-17"]
+key_name  = "chandrasoftwaresolutions"
 tags = {
     Name = " Redhat server "
 }
