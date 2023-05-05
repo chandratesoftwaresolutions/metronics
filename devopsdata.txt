@@ -1,0 +1,2 @@
+DevOps is a methodology to deliver the application in short period of time and make a collaboration to both development and operations.
+It implements a automation with configure multiple tools at one place continuous integration.
