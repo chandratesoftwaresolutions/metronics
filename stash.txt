@@ -1,0 +1,8 @@
+Git stash working on files which are in working area. Git stash take the back up of file in working area and move on to the next procedure.
+git stash list -----> display the back up sets
+git stash apply -----> go back to remote one of backup set.
+git stash apply stash@{1} -----> specific one
+git stash drop ----> delete the recent back up set
+git stash drop stash@{1} -----> drop the particular one
+hello
+hi
