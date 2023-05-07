@@ -6,3 +6,4 @@ git stash drop ----> delete the recent back up set
 git stash drop stash@{1} -----> drop the particular one
 hello
 hi
+Hey my dear friend 
